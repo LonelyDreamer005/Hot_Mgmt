@@ -1,0 +1,1 @@
+Room 1 | Name: Vinay | Phone: 98988989898 | Check-in: 10-10-2009 | Check-out: 20-10-2009 | Bill: $1000.00

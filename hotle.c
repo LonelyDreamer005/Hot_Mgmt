@@ -95,6 +95,9 @@ int calculate_days(const char *checkin, const char *checkout) {
 
 void calculate_bill(struct Customer *cust) {
     int days = calculate_days(cust->checkin, cust->checkout);
+    if (days <= 0) {
+        days = 1; // Minimum charge of 1 day
+    }
     cust->bill = days * ROOM_RATE;
 }
 
